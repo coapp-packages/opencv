@@ -1,0 +1,61 @@
+#product-info  {
+    product-name: "Coin-Cbc";
+    version: "2.7";
+    original-source-location: "https://projects.coin-or.org/svn/Cbc/stable/2.7";
+    original-source-website: "https://projects.coin-or.org/Cbc";
+    license: "Eclipse Public License (EPL)";
+    packager: "Petter Strandmark";
+}
+
+
+x64  {
+    compiler: vc10-x64 ;
+ 
+    targets: { 
+				
+			} ;
+ 
+    build-command: @"
+		msbuild /p:Platform=x64 /p:Configuration=Release build64\OpenCV.sln
+		";
+
+    clean-command: @"
+		rmdir /S /Q build64\3rdparty\lib
+		rmdir /S /Q build64\3rdparty\libjasper\libjasper.dir\
+		rmdir /S /Q build64\3rdparty\libjpeg\libjpeg.dir\
+		rmdir /S /Q build64\3rdparty\libpng\libpng.dir\
+		rmdir /S /Q build64\3rdparty\libtiff\libtiff.dir\
+		rmdir /S /Q build64\3rdparty\zlib\zlib.dir\
+		del /Q build64\OpenCV.sln.cache
+		rmdir /S /Q build64\bin\
+		rmdir /S /Q build64\lib\
+		rmdir /S /Q build64\modules\calib3d\opencv_calib3d.dir\
+		rmdir /S /Q build64\modules\calib3d\opencv_test_calib3d.dir\
+		rmdir /S /Q build64\modules\contrib\opencv_contrib.dir\
+		rmdir /S /Q build64\modules\core\opencv_core.dir\
+		rmdir /S /Q build64\modules\core\opencv_test_core.dir\
+		rmdir /S /Q build64\modules\features2d\opencv_features2d.dir\
+		rmdir /S /Q build64\modules\features2d\opencv_test_features2d.dir\
+		rmdir /S /Q build64\modules\flann\opencv_flann.dir\
+		rmdir /S /Q build64\modules\gpu\opencv_gpu.dir\
+		rmdir /S /Q build64\modules\gpu\opencv_test_gpu.dir\
+		rmdir /S /Q build64\modules\haartraining\opencv_createsamples.dir\
+		rmdir /S /Q build64\modules\haartraining\opencv_haartraining.dir\
+		rmdir /S /Q build64\modules\haartraining\opencv_haartraining_engine.dir\
+		rmdir /S /Q build64\modules\haartraining\opencv_performance.dir\
+		rmdir /S /Q build64\modules\highgui\opencv_highgui.dir\
+		rmdir /S /Q build64\modules\highgui\opencv_test_highgui.dir\
+		rmdir /S /Q build64\modules\imgproc\opencv_imgproc.dir\
+		rmdir /S /Q build64\modules\imgproc\opencv_test_imgproc.dir\
+		rmdir /S /Q build64\modules\legacy\opencv_legacy.dir\
+		rmdir /S /Q build64\modules\ml\opencv_ml.dir\
+		rmdir /S /Q build64\modules\ml\opencv_test_ml.dir\
+		rmdir /S /Q build64\modules\objdetect\opencv_objdetect.dir\
+		rmdir /S /Q build64\modules\objdetect\opencv_test_objdetect.dir\
+		rmdir /S /Q build64\modules\stitching\opencv_stitching.dir\
+		rmdir /S /Q build64\modules\traincascade\opencv_traincascade.dir\
+		rmdir /S /Q build64\modules\ts\opencv_ts.dir\
+		rmdir /S /Q build64\modules\video\opencv_test_video.dir\
+		rmdir /S /Q build64\modules\video\opencv_video.dir\
+					";
+}
