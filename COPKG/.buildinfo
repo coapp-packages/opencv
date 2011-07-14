@@ -1,9 +1,9 @@
 #product-info  {
-    product-name: "Coin-Cbc";
-    version: "2.7";
-    original-source-location: "https://projects.coin-or.org/svn/Cbc/stable/2.7";
-    original-source-website: "https://projects.coin-or.org/Cbc";
-    license: "Eclipse Public License (EPL)";
+    product-name: "OpenCV";
+    version: "2.3";
+    original-source-location: "https://code.ros.org/svn/opencv/trunk";
+    original-source-website: "http://opencv.willowgarage.com/wiki/";
+    license: "BSD";
     packager: "Petter Strandmark";
 }
 
