@@ -1,0 +1,329 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F66C56A3-5F1C-4B6C-A5AC-7FE70A125290}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\opencv\build64\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_flann.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_flann231d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\opencv\build64\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_flann.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_flann231</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\opencv\build64\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_flann.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_flann231</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\opencv\build64\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_flann.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_flann231</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_flann231d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_core231d.lib;..\..\3rdparty\lib\Debug\zlibd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/Debug/opencv_flann231d.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_flann231d.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Release";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_flann231.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_core231.lib;..\..\3rdparty\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/Release/opencv_flann231.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_flann231.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="MinSizeRel";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_flann231.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\opencv_core231.lib;..\..\3rdparty\lib\MinSizeRel\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/MinSizeRel/opencv_flann231.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_flann231.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="RelWithDebInfo";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_flann231.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/flann/src;C:/git/opencv/build64/modules/flann;C:/git/opencv/opencv/modules/flann/../core/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\opencv_core231.lib;..\..\3rdparty\lib\RelWithDebInfo\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/RelWithDebInfo/opencv_flann231.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_flann231.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\flann\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/opencv/opencv/modules/flann/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/modules/flann/CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/opencv/opencv/modules/flann/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/modules/flann/CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/opencv/opencv/modules/flann/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/modules/flann/CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/opencv/opencv/modules/flann/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/modules/flann/CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;C:\git\opencv\opencv\modules\flann\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\flann\src\flann.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\flann\src\miniflann.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\flann\src\precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/modules/flann/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\allocator.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\all_indices.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\any.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\autotuned_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\composite_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\config.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\defines.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\dist.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\dummy.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\dynamic_bitset.h" />
+    <None Include="..\..\..\opencv\modules\flann\include\opencv2\flann\flann.hpp" />
+    <None Include="..\..\..\opencv\modules\flann\include\opencv2\flann\flann_base.hpp" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\general.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\ground_truth.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\hdf5.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\heap.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\hierarchical_clustering_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\index_testing.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\kdtree_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\kdtree_single_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\kmeans_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\linear_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\logger.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\lsh_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\lsh_table.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\matrix.h" />
+    <None Include="..\..\..\opencv\modules\flann\include\opencv2\flann\miniflann.hpp" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\nn_index.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\object_factory.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\params.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\random.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\result_set.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\sampling.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\saving.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\simplex_downhill.h" />
+    <ClInclude Include="..\..\..\opencv\modules\flann\include\opencv2\flann\timer.h" />
+    <None Include="..\..\..\opencv\modules\flann\src\precomp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/opencv/build64/ZERO_CHECK.vcxproj">
+      <Project>E1A2D17C-D4F4-4030-88F8-01FB4E5C3D2C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/core/opencv_core.vcxproj">
+      <Project>44A60DF1-529D-4C51-B640-FD55223402C8</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

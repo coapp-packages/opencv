@@ -1,0 +1,305 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{0CACD18C-477E-44C2-A2F9-1A41F372EA06}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\opencv\build64\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_core.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_cored</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\opencv\build64\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_core.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_core</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\opencv\build64\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_test_core.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_test_core</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\opencv\build64\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_test_core.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_test_core</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_test_cored.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_core231d.lib;..\..\3rdparty\lib\Debug\zlibd.lib;..\..\lib\Debug\opencv_ts231d.lib;..\..\lib\Debug\opencv_highgui231d.lib;..\..\lib\Debug\opencv_core231d.lib;..\..\3rdparty\lib\Debug\zlibd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/bin/Debug/opencv_test_cored.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_test_cored.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_test_core.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_core231.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\lib\Release\opencv_ts231.lib;..\..\lib\Release\opencv_highgui231.lib;..\..\lib\Release\opencv_core231.lib;..\..\3rdparty\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/bin/Release/opencv_test_core.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_test_core.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_test_core.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\opencv_core231.lib;..\..\3rdparty\lib\MinSizeRel\zlib.lib;..\..\lib\MinSizeRel\opencv_ts231.lib;..\..\lib\MinSizeRel\opencv_highgui231.lib;..\..\lib\MinSizeRel\opencv_core231.lib;..\..\3rdparty\lib\MinSizeRel\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/bin/MinSizeRel/opencv_test_core.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_test_core.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_test_core.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/core/../../3rdparty/zlib;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/core/src;C:/git/opencv/build64/modules/core;C:/git/opencv/opencv/modules/core/test;C:/git/opencv/opencv/modules/core/../core/include;C:/git/opencv/opencv/modules/core/../ts/include;C:/git/opencv/opencv/modules/core/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\opencv_core231.lib;..\..\3rdparty\lib\RelWithDebInfo\zlib.lib;..\..\lib\RelWithDebInfo\opencv_ts231.lib;..\..\lib\RelWithDebInfo\opencv_highgui231.lib;..\..\lib\RelWithDebInfo\opencv_core231.lib;..\..\3rdparty\lib\RelWithDebInfo\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_test_core.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_test_core.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/opencv/opencv/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/modules/core/CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/opencv/opencv/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/modules/core/CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/opencv/opencv/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/modules/core/CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/opencv/opencv/modules/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/modules/core/CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;C:\git\opencv\opencv\modules\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_arithm.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_ds.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_dxt.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_io.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_main.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_mat.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_math.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_operations.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/modules/core/test/test_precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\core\test\test_rand.cpp" />
+    <None Include="..\..\..\opencv\modules\core\test\test_precomp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/opencv/build64/ZERO_CHECK.vcxproj">
+      <Project>E1A2D17C-D4F4-4030-88F8-01FB4E5C3D2C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/3rdparty/zlib/zlib.vcxproj">
+      <Project>CB60A649-DBDD-416D-BD3E-B6AE586C3173</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/core/opencv_core.vcxproj">
+      <Project>44A60DF1-529D-4C51-B640-FD55223402C8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/ts/opencv_ts.vcxproj">
+      <Project>6C8B2234-3324-4175-8F3A-EC871FE17BB4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/highgui/opencv_highgui.vcxproj">
+      <Project>DE60EF20-4312-45FB-98E4-613CC7A80D3C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

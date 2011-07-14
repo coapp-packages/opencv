@@ -1,0 +1,212 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F3F68041-304F-4421-990B-89CB27908934}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\opencv\build64\3rdparty\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libpng.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libpngd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\opencv\build64\3rdparty\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libpng.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libpng</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\opencv\build64\3rdparty\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libpng.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libpng</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\opencv\build64\3rdparty\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libpng.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libpng</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/Debug/libpngd.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/Release/libpng.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/MinSizeRel/libpng.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/RelWithDebInfo/libpng.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libpng;C:/git/opencv/opencv/3rdparty/libpng/../zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\3rdparty\libpng\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/3rdparty/libpng/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libpng\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\png.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngerror.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngget.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngmem.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngpread.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngread.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngrio.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngrtran.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngrutil.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngset.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngtest.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngtrans.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngwio.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngwrite.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngwtran.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libpng\pngwutil.c" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libpng\png.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libpng\pngconf.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libpng\pngpriv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/opencv/build64/ZERO_CHECK.vcxproj">
+      <Project>E1A2D17C-D4F4-4030-88F8-01FB4E5C3D2C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

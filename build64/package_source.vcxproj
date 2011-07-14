@@ -1,0 +1,130 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{84200148-78B2-42BA-8253-7A4B35E02C94}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\package_source.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cd C:\git\opencv\opencv
+C:
+zip -9 -r C:/git/opencv/build64/OpenCV-2.3.1.zip . -x '*/.svn/*' '*.vcproj' '*.pyc'</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/build64/CMakeFiles/package_source.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\opencv\build64\CMakeFiles\package_source;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cd C:\git\opencv\opencv
+C:
+zip -9 -r C:/git/opencv/build64/OpenCV-2.3.1.zip . -x '*/.svn/*' '*.vcproj' '*.pyc'</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/build64/CMakeFiles/package_source.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\opencv\build64\CMakeFiles\package_source;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cd C:\git\opencv\opencv
+C:
+zip -9 -r C:/git/opencv/build64/OpenCV-2.3.1.zip . -x '*/.svn/*' '*.vcproj' '*.pyc'</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/build64/CMakeFiles/package_source.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\opencv\build64\CMakeFiles\package_source;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cd C:\git\opencv\opencv
+C:
+zip -9 -r C:/git/opencv/build64/OpenCV-2.3.1.zip . -x '*/.svn/*' '*.vcproj' '*.pyc'</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/build64/CMakeFiles/package_source.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\opencv\build64\CMakeFiles\package_source;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\opencv\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/opencv/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/CMakeLists.txt;C:\git\opencv\opencv\CMakeLists.txt;C:\git\opencv\build64\CMakeFiles\CMakeSystem.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCCompiler.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCPlatform.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\git\opencv\opencv\OpenCVPCHSupport.cmake;C:\git\opencv\opencv\OpenCVModule.cmake;C:\git\opencv\opencv\OpenCVFindOpenEXR.cmake;C:\git\opencv\opencv\OpenCVFindLATEX.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonLibs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeFindFrameworks.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\git\opencv\opencv\cvconfig.h.cmake;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\opencv.pc.cmake.in;C:\git\opencv\opencv\cmake_uninstall.cmake.in;C:\git\opencv\opencv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/opencv/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/CMakeLists.txt;C:\git\opencv\opencv\CMakeLists.txt;C:\git\opencv\build64\CMakeFiles\CMakeSystem.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCCompiler.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCPlatform.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\git\opencv\opencv\OpenCVPCHSupport.cmake;C:\git\opencv\opencv\OpenCVModule.cmake;C:\git\opencv\opencv\OpenCVFindOpenEXR.cmake;C:\git\opencv\opencv\OpenCVFindLATEX.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonLibs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeFindFrameworks.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\git\opencv\opencv\cvconfig.h.cmake;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\opencv.pc.cmake.in;C:\git\opencv\opencv\cmake_uninstall.cmake.in;C:\git\opencv\opencv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/opencv/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/CMakeLists.txt;C:\git\opencv\opencv\CMakeLists.txt;C:\git\opencv\build64\CMakeFiles\CMakeSystem.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCCompiler.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCPlatform.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\git\opencv\opencv\OpenCVPCHSupport.cmake;C:\git\opencv\opencv\OpenCVModule.cmake;C:\git\opencv\opencv\OpenCVFindOpenEXR.cmake;C:\git\opencv\opencv\OpenCVFindLATEX.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonLibs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeFindFrameworks.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\git\opencv\opencv\cvconfig.h.cmake;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\opencv.pc.cmake.in;C:\git\opencv\opencv\cmake_uninstall.cmake.in;C:\git\opencv\opencv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/opencv/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/CMakeLists.txt;C:\git\opencv\opencv\CMakeLists.txt;C:\git\opencv\build64\CMakeFiles\CMakeSystem.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCCompiler.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCPlatform.cmake;C:\git\opencv\build64\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\Platform\cl.cmake;C:\git\opencv\build64\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\git\opencv\opencv\OpenCVPCHSupport.cmake;C:\git\opencv\opencv\OpenCVModule.cmake;C:\git\opencv\opencv\OpenCVFindOpenEXR.cmake;C:\git\opencv\opencv\OpenCVFindLATEX.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPythonLibs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\CMakeFindFrameworks.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\cmake\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\git\opencv\opencv\cvconfig.h.cmake;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\OpenCVConfig-version.cmake.in;C:\git\opencv\opencv\OpenCVConfig.cmake.in;C:\git\opencv\opencv\opencv.pc.cmake.in;C:\git\opencv\opencv\cmake_uninstall.cmake.in;C:\git\opencv\opencv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/opencv/build64/ZERO_CHECK.vcxproj">
+      <Project>E1A2D17C-D4F4-4030-88F8-01FB4E5C3D2C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

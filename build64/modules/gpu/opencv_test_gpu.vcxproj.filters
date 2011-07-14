@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_arithm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_calib3d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_features2d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_filters.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_gpu_base.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_hog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_imgproc.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_matop.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_nvidia.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\test\test_precomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\gpu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{1931B85A-1385-487A-8869-D43C91C52FC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_arithm.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_calib3d.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_features2d.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_filters.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_gpu_base.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_hog.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_imgproc.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_matop.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_nvidia.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_precomp.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_gpu_base.hpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\test\test_precomp.hpp">
+      <Filter>Src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

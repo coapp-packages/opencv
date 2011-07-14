@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\traincascade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\cascadeclassifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\boost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\features.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\haarfeatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\lbpfeatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\imagestorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\cascadeclassifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\traincascade_features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\haarfeatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\lbpfeatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\imagestorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\traincascade\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ABF9CD6-D6A0-4DE5-9EBE-C0D10405E2BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{075546DD-9BEF-4151-BA42-0A6AA5109C69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\traincascade\traincascade.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\traincascade\cascadeclassifier.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\traincascade\boost.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\traincascade\features.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\traincascade\haarfeatures.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\traincascade\lbpfeatures.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\traincascade\imagestorage.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

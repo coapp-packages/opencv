@@ -1,0 +1,292 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{068DE99C-DC76-46D5-955C-BB77EC1FC8C7}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\opencv\build64\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_traincascade.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_traincascaded</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\opencv\build64\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_traincascade.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_traincascade</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\opencv\build64\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_traincascade.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_traincascade</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\opencv\build64\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_traincascade.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_traincascade</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_traincascaded.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_core231d.lib;..\..\lib\Debug\opencv_ml231d.lib;..\..\lib\Debug\opencv_imgproc231d.lib;..\..\lib\Debug\opencv_objdetect231d.lib;..\..\lib\Debug\opencv_highgui231d.lib;..\..\lib\Debug\opencv_haartraining_engined.lib;..\..\lib\Debug\opencv_objdetect231d.lib;..\..\lib\Debug\opencv_calib3d231d.lib;..\..\lib\Debug\opencv_features2d231d.lib;..\..\lib\Debug\opencv_highgui231d.lib;..\..\lib\Debug\opencv_imgproc231d.lib;..\..\lib\Debug\opencv_flann231d.lib;..\..\lib\Debug\opencv_core231d.lib;..\..\3rdparty\lib\Debug\zlibd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/lib/Debug/opencv_traincascaded.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_traincascaded.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_traincascade.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_core231.lib;..\..\lib\Release\opencv_ml231.lib;..\..\lib\Release\opencv_imgproc231.lib;..\..\lib\Release\opencv_objdetect231.lib;..\..\lib\Release\opencv_highgui231.lib;..\..\lib\Release\opencv_haartraining_engine.lib;..\..\lib\Release\opencv_objdetect231.lib;..\..\lib\Release\opencv_calib3d231.lib;..\..\lib\Release\opencv_features2d231.lib;..\..\lib\Release\opencv_highgui231.lib;..\..\lib\Release\opencv_imgproc231.lib;..\..\lib\Release\opencv_flann231.lib;..\..\lib\Release\opencv_core231.lib;..\..\3rdparty\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/lib/Release/opencv_traincascade.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_traincascade.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_traincascade.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\opencv_core231.lib;..\..\lib\MinSizeRel\opencv_ml231.lib;..\..\lib\MinSizeRel\opencv_imgproc231.lib;..\..\lib\MinSizeRel\opencv_objdetect231.lib;..\..\lib\MinSizeRel\opencv_highgui231.lib;..\..\lib\MinSizeRel\opencv_haartraining_engine.lib;..\..\lib\MinSizeRel\opencv_objdetect231.lib;..\..\lib\MinSizeRel\opencv_calib3d231.lib;..\..\lib\MinSizeRel\opencv_features2d231.lib;..\..\lib\MinSizeRel\opencv_highgui231.lib;..\..\lib\MinSizeRel\opencv_imgproc231.lib;..\..\lib\MinSizeRel\opencv_flann231.lib;..\..\lib\MinSizeRel\opencv_core231.lib;..\..\3rdparty\lib\MinSizeRel\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/lib/MinSizeRel/opencv_traincascade.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_traincascade.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_traincascade.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/traincascade;C:/git/opencv/opencv/modules/core/include;C:/git/opencv/opencv/modules/imgproc/include;C:/git/opencv/opencv/modules/objdetect/include;C:/git/opencv/opencv/modules/ml/include;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/video/include;C:/git/opencv/opencv/modules/features2d/include;C:/git/opencv/opencv/modules/flann/include;C:/git/opencv/opencv/modules/calib3d/include;C:/git/opencv/opencv/modules/legacy/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\opencv_core231.lib;..\..\lib\RelWithDebInfo\opencv_ml231.lib;..\..\lib\RelWithDebInfo\opencv_imgproc231.lib;..\..\lib\RelWithDebInfo\opencv_objdetect231.lib;..\..\lib\RelWithDebInfo\opencv_highgui231.lib;..\..\lib\RelWithDebInfo\opencv_haartraining_engine.lib;..\..\lib\RelWithDebInfo\opencv_objdetect231.lib;..\..\lib\RelWithDebInfo\opencv_calib3d231.lib;..\..\lib\RelWithDebInfo\opencv_features2d231.lib;..\..\lib\RelWithDebInfo\opencv_highgui231.lib;..\..\lib\RelWithDebInfo\opencv_imgproc231.lib;..\..\lib\RelWithDebInfo\opencv_flann231.lib;..\..\lib\RelWithDebInfo\opencv_core231.lib;..\..\3rdparty\lib\RelWithDebInfo\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/git/opencv/build64/lib/RelWithDebInfo/opencv_traincascade.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_traincascade.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\traincascade\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/modules/traincascade/CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;C:\git\opencv\opencv\modules\traincascade\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\traincascade.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\cascadeclassifier.cpp" />
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\cascadeclassifier.h" />
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\boost.cpp" />
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\boost.h" />
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\features.cpp" />
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\traincascade_features.h" />
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\haarfeatures.cpp" />
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\haarfeatures.h" />
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\lbpfeatures.cpp" />
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\lbpfeatures.h" />
+    <ClCompile Include="..\..\..\opencv\modules\traincascade\imagestorage.cpp" />
+    <ClInclude Include="..\..\..\opencv\modules\traincascade\imagestorage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/opencv/build64/modules/haartraining/opencv_haartraining_engine.vcxproj">
+      <Project>630C22F1-D793-4D2E-99DC-7149012DF28B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/ZERO_CHECK.vcxproj">
+      <Project>E1A2D17C-D4F4-4030-88F8-01FB4E5C3D2C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/ml/opencv_ml.vcxproj">
+      <Project>E6BEB1FA-2B61-4187-984D-DB87AE6E793B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/objdetect/opencv_objdetect.vcxproj">
+      <Project>0B6B6DEC-3BC0-4356-9BD4-8C950DFEC2CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/core/opencv_core.vcxproj">
+      <Project>44A60DF1-529D-4C51-B640-FD55223402C8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/highgui/opencv_highgui.vcxproj">
+      <Project>DE60EF20-4312-45FB-98E4-613CC7A80D3C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/imgproc/opencv_imgproc.vcxproj">
+      <Project>58D4DB37-8DF4-42D8-8CF2-1BF4C3883416</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

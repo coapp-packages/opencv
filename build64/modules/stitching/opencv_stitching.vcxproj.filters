@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\autocalib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\blenders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\exposure_compensate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\matchers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\motion_estimators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\precomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\seam_finders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\stitching\warpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\stitching\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ABF9CD6-D6A0-4DE5-9EBE-C0D10405E2BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{075546DD-9BEF-4151-BA42-0A6AA5109C69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\stitching\autocalib.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\blenders.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\exposure_compensate.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\matchers.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\motion_estimators.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\precomp.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\seam_finders.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\util.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\util_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\warpers.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\warpers_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\autocalib.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\blenders.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\exposure_compensate.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\main.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\matchers.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\motion_estimators.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\precomp.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\seam_finders.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\util.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\stitching\warpers.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

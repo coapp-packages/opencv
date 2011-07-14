@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\cascadedetect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\datamatrix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\distancetransform.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\featurepyramid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\fft.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\haar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\hog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\latentsvm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\latentsvmdetector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\lsvmparser.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\lsvmtbbversion.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\matching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\planardetect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\precomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\resizeimg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\objdetect\src\routine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_latentsvm.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvmparser.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_distancetransform.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_error.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_fft.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_matching.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_resizeimg.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_routine.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_tbbversion.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\opencv\modules\objdetect\src\_lsvm_types.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\objdetect\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{1931B85A-1385-487A-8869-D43C91C52FC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{8DFACFE0-8829-4771-AFFC-DD4895BA5A97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\objdetect\src\cascadedetect.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\datamatrix.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\distancetransform.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\featurepyramid.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\fft.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\haar.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\hog.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\latentsvm.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\latentsvmdetector.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\lsvmparser.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\lsvmtbbversion.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\matching.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\planardetect.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\precomp.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\resizeimg.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\routine.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\include\opencv2\objdetect\objdetect.hpp">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\objdetect\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,272 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{39EF4579-E220-4980-B7A7-76FC430079F0}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\opencv\build64\3rdparty\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjasper.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjasperd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\opencv\build64\3rdparty\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjasper.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjasper</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\opencv\build64\3rdparty\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libjasper.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libjasper</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\opencv\build64\3rdparty\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libjasper.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libjasper</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;EXCLUDE_MIF_SUPPORT;EXCLUDE_PNM_SUPPORT;EXCLUDE_BMP_SUPPORT;EXCLUDE_RAS_SUPPORT;EXCLUDE_JPG_SUPPORT;EXCLUDE_PGX_SUPPORT;JAS_WIN_MSVC_BUILD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/Debug/libjasperd.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;EXCLUDE_MIF_SUPPORT;EXCLUDE_PNM_SUPPORT;EXCLUDE_BMP_SUPPORT;EXCLUDE_RAS_SUPPORT;EXCLUDE_JPG_SUPPORT;EXCLUDE_PGX_SUPPORT;JAS_WIN_MSVC_BUILD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/Release/libjasper.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;EXCLUDE_MIF_SUPPORT;EXCLUDE_PNM_SUPPORT;EXCLUDE_BMP_SUPPORT;EXCLUDE_RAS_SUPPORT;EXCLUDE_JPG_SUPPORT;EXCLUDE_PGX_SUPPORT;JAS_WIN_MSVC_BUILD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/MinSizeRel/libjasper.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;EXCLUDE_MIF_SUPPORT;EXCLUDE_PNM_SUPPORT;EXCLUDE_BMP_SUPPORT;EXCLUDE_RAS_SUPPORT;EXCLUDE_JPG_SUPPORT;EXCLUDE_PGX_SUPPORT;JAS_WIN_MSVC_BUILD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/3rdparty/lib/RelWithDebInfo/libjasper.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/3rdparty/libjasper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\3rdparty\libjasper\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/3rdparty/libjasper/CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;C:\git\opencv\opencv\3rdparty\libjasper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_cm.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_debug.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_getopt.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_icc.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_iccdata.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_image.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_init.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_malloc.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_seq.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_stream.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_string.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_tmr.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_tvp.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jas_version.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jp2_cod.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jp2_dec.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jp2_enc.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_bs.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_cs.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_dec.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_enc.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_math.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_mct.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_mqcod.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_mqdec.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_mqenc.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_qmfb.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_t1cod.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_t1dec.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_t1enc.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_t2cod.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_t2dec.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_t2enc.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_tagtree.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_tsfb.c" />
+    <ClCompile Include="..\..\..\opencv\3rdparty\libjasper\jpc_util.c" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jp2_cod.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jp2_dec.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_bs.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_cod.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_cs.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_dec.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_enc.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_fix.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_flt.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_math.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_mct.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_mqcod.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_mqdec.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_mqenc.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_qmfb.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_t1cod.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_t1dec.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_t1enc.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_t2cod.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_t2dec.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_t2enc.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_tagtree.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_tsfb.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jpc_util.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jasper.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_cm.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_config.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_config2.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_debug.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_fix.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_getopt.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_icc.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_image.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_init.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_malloc.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_math.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_seq.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_stream.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_string.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_tmr.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_tvp.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_types.h" />
+    <ClInclude Include="..\..\..\opencv\3rdparty\libjasper\jasper\jas_version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/opencv/build64/ZERO_CHECK.vcxproj">
+      <Project>E1A2D17C-D4F4-4030-88F8-01FB4E5C3D2C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

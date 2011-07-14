@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_affine3d_estimator.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_cameracalibration.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_cameracalibration_artificial.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_cameracalibration_badarg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_chessboardgenerator.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_chesscorners.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_chesscorners_badarg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_chesscorners_timing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_compose_rt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_cornerssubpix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_fundam.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_posit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_precomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_reproject_image_to_3d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_solvepnp_ransac.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_stereomatching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_undistort.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\test\test_undistort_badarg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\calib3d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{1931B85A-1385-487A-8869-D43C91C52FC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{8DFACFE0-8829-4771-AFFC-DD4895BA5A97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_affine3d_estimator.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_cameracalibration.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_cameracalibration_artificial.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_cameracalibration_badarg.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_chessboardgenerator.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_chesscorners.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_chesscorners_badarg.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_chesscorners_timing.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_compose_rt.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_cornerssubpix.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_fundam.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_posit.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_precomp.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_reproject_image_to_3d.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_solvepnp_ransac.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_stereomatching.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_undistort.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_undistort_badarg.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_chessboardgenerator.hpp">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </None>
+  </ItemGroup>
+</Project>

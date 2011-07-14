@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\calibinit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\calibration.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\checkchessboard.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\circlesgrid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\fundam.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\modelest.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\posit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\precomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\quadsubpix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\solvepnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\stereobm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\stereogc.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\stereosgbm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\calib3d\src\triangulate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\opencv\modules\calib3d\src\_modelest.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\calib3d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{1931B85A-1385-487A-8869-D43C91C52FC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{8DFACFE0-8829-4771-AFFC-DD4895BA5A97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\calib3d\src\calibinit.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\calibration.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\checkchessboard.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\circlesgrid.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\fundam.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\modelest.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\posit.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\precomp.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\quadsubpix.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\solvepnp.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\stereobm.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\stereogc.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\stereosgbm.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\triangulate.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\include\opencv2\calib3d\calib3d.hpp">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\circlesgrid.hpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\calib3d\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

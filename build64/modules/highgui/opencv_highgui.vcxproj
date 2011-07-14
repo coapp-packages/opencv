@@ -1,0 +1,345 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DE60EF20-4312-45FB-98E4-613CC7A80D3C}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\git\opencv\build64\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_highgui.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_highgui231d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\git\opencv\build64\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_highgui.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_highgui231</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\git\opencv\build64\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_highgui.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_highgui231</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\git\opencv\build64\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_highgui.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_highgui231</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;HAVE_JPEG;HAVE_PNG;HAVE_TIFF;HAVE_JASPER;HIGHGUI_EXPORTS;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_highgui231d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_core231d.lib;..\..\lib\Debug\opencv_imgproc231d.lib;..\..\3rdparty\lib\Debug\zlibd.lib;..\..\3rdparty\lib\Debug\libjpegd.lib;..\..\3rdparty\lib\Debug\libpngd.lib;..\..\3rdparty\lib\Debug\libtiffd.lib;..\..\3rdparty\lib\Debug\libjasperd.lib;comctl32.lib;gdi32.lib;ole32.lib;vfw32.lib;..\..\lib\Debug\opencv_core231d.lib;..\..\3rdparty\lib\Debug\zlibd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;atlthunk.lib;atlsd.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/Debug/opencv_highgui231d.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Debug/opencv_highgui231d.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;HAVE_JPEG;HAVE_PNG;HAVE_TIFF;HAVE_JASPER;HIGHGUI_EXPORTS;CMAKE_INTDIR="Release";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_highgui231.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_core231.lib;..\..\lib\Release\opencv_imgproc231.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\3rdparty\lib\Release\libjpeg.lib;..\..\3rdparty\lib\Release\libpng.lib;..\..\3rdparty\lib\Release\libtiff.lib;..\..\3rdparty\lib\Release\libjasper.lib;comctl32.lib;gdi32.lib;ole32.lib;vfw32.lib;..\..\lib\Release\opencv_core231.lib;..\..\3rdparty\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;atlthunk.lib;atlsd.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/Release/opencv_highgui231.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/Release/opencv_highgui231.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;HAVE_JPEG;HAVE_PNG;HAVE_TIFF;HAVE_JASPER;HIGHGUI_EXPORTS;CMAKE_INTDIR="MinSizeRel";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_highgui231.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\opencv_core231.lib;..\..\lib\MinSizeRel\opencv_imgproc231.lib;..\..\3rdparty\lib\MinSizeRel\zlib.lib;..\..\3rdparty\lib\MinSizeRel\libjpeg.lib;..\..\3rdparty\lib\MinSizeRel\libpng.lib;..\..\3rdparty\lib\MinSizeRel\libtiff.lib;..\..\3rdparty\lib\MinSizeRel\libjasper.lib;comctl32.lib;gdi32.lib;ole32.lib;vfw32.lib;..\..\lib\MinSizeRel\opencv_core231.lib;..\..\3rdparty\lib\MinSizeRel\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;atlthunk.lib;atlsd.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/MinSizeRel/opencv_highgui231.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/MinSizeRel/opencv_highgui231.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForcedIncludeFiles>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PYTHON_USE_NUMPY=1;HAVE_CVCONFIG_H;HAVE_JPEG;HAVE_PNG;HAVE_TIFF;HAVE_JASPER;HIGHGUI_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_highgui231.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Python26/lib/site-packages/numpy/core/include;C:/git/opencv/opencv/.;C:/git/opencv/build64;C:/git/opencv/opencv/include;C:/git/opencv/opencv/include/opencv;C:/git/opencv/opencv/modules/highgui/../../3rdparty/zlib;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjpeg;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libpng;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libtiff;C:/git/opencv/opencv/modules/highgui/../../3rdparty/libjasper;C:/git/opencv/opencv/modules/highgui/include;C:/git/opencv/opencv/modules/highgui/../core/include;C:/git/opencv/opencv/modules/highgui/../imgproc/include;C:/git/opencv/opencv/modules/highgui/src;C:/git/opencv/build64/modules/highgui;C:/git/opencv/opencv/modules/highgui/../../3rdparty/include;C:/git/opencv/opencv/modules/highgui/test;C:/git/opencv/opencv/modules/highgui/../ts/include;C:/git/opencv/opencv/modules/highgui/../highgui/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\opencv_core231.lib;..\..\lib\RelWithDebInfo\opencv_imgproc231.lib;..\..\3rdparty\lib\RelWithDebInfo\zlib.lib;..\..\3rdparty\lib\RelWithDebInfo\libjpeg.lib;..\..\3rdparty\lib\RelWithDebInfo\libpng.lib;..\..\3rdparty\lib\RelWithDebInfo\libtiff.lib;..\..\3rdparty\lib\RelWithDebInfo\libjasper.lib;comctl32.lib;gdi32.lib;ole32.lib;vfw32.lib;..\..\lib\RelWithDebInfo\opencv_core231.lib;..\..\3rdparty\lib\RelWithDebInfo\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;atlthunk.lib;atlsd.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/git/opencv/build64/lib/RelWithDebInfo/opencv_highgui231.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/git/opencv/build64/bin/RelWithDebInfo/opencv_highgui231.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\highgui\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/git/opencv/opencv/modules/highgui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/modules/highgui/CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/git/opencv/opencv/modules/highgui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/modules/highgui/CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/git/opencv/opencv/modules/highgui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/modules/highgui/CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/git/opencv/opencv/modules/highgui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">"C:\Program Files (x86)\cmake\bin\cmake.exe" -HC:/git/opencv/opencv -BC:/git/opencv/build64 --check-stamp-file CMakeFiles/generate.stamp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/modules/highgui/CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;C:\git\opencv\opencv\modules\highgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_images.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_ffmpeg.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\loadsave.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/git/opencv/opencv/modules/highgui/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\utils.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\window.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\window_w32.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_vfw.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_cmu.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_dshow.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\bitstrm.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_base.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_bmp.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_exr.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_imageio.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg2000.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_png.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_pxm.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_sunras.cpp" />
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_tiff.cpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\precomp.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\utils.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\bitstrm.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmts.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_base.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_bmp.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_exr.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_imageio.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg2000.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_png.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_pxm.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_sunras.hpp" />
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_tiff.hpp" />
+    <ClInclude Include="..\..\..\opencv\modules\highgui\include\opencv2\highgui\highgui_c.h" />
+    <None Include="..\..\..\opencv\modules\highgui\include\opencv2\highgui\highgui.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/git/opencv/build64/3rdparty/libtiff/libtiff.vcxproj">
+      <Project>8C611D24-2DDB-4E80-8F80-F0B0B4B66969</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/ZERO_CHECK.vcxproj">
+      <Project>E1A2D17C-D4F4-4030-88F8-01FB4E5C3D2C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/3rdparty/zlib/zlib.vcxproj">
+      <Project>CB60A649-DBDD-416D-BD3E-B6AE586C3173</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/3rdparty/libjasper/libjasper.vcxproj">
+      <Project>39EF4579-E220-4980-B7A7-76FC430079F0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/3rdparty/libjpeg/libjpeg.vcxproj">
+      <Project>1DFE48D8-0FBC-4CBC-AFFD-0B49DFD1C99D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/3rdparty/libpng/libpng.vcxproj">
+      <Project>F3F68041-304F-4421-990B-89CB27908934</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/core/opencv_core.vcxproj">
+      <Project>44A60DF1-529D-4C51-B640-FD55223402C8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/git/opencv/build64/modules/imgproc/opencv_imgproc.vcxproj">
+      <Project>58D4DB37-8DF4-42D8-8CF2-1BF4C3883416</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

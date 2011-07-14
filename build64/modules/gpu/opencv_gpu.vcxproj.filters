@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\arithm.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\bilateral_filter.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\blend.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\brute_force_matcher.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\calib3d.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\cascadeclassifier.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\color.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\cudastream.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\element_operations.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\error.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\filtering.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\graphcuts.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\hog.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\imgproc_gpu.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\initialization.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\match_template.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\matrix_operations.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\matrix_reductions.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\mssegmentation.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\precomp.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\speckle_filtering.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\split_merge.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\stereobm.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\stereobp.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\stereocsbp.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\gpu\src\surf.cpp">
+      <Filter>Src\Host</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\gpu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{8DFACFE0-8829-4771-AFFC-DD4895BA5A97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{6E19ADFA-DE5A-4650-975B-B02FBDF470C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Host">
+      <UniqueIdentifier>{54AC4904-1498-4AA4-B0C7-F8D335B6F11D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Cuda">
+      <UniqueIdentifier>{C466C55D-5E5B-49B6-88C7-C4F9FC72A135}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\gpu\src\arithm.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\bilateral_filter.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\blend.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\brute_force_matcher.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\calib3d.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cascadeclassifier.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\color.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cudastream.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\element_operations.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\error.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\filtering.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\graphcuts.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\hog.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\imgproc_gpu.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\initialization.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\match_template.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\matrix_operations.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\matrix_reductions.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\mssegmentation.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\precomp.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\speckle_filtering.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\split_merge.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\stereobm.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\stereobp.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\stereocsbp.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\surf.cpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\include\opencv2\gpu\devmem2d.hpp">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\include\opencv2\gpu\gpu.hpp">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\include\opencv2\gpu\matrix_operations.hpp">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\include\opencv2\gpu\stream_accessor.hpp">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\precomp.hpp">
+      <Filter>Src\Host</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\blend.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\brute_force_matcher.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\calib3d.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\color.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\element_operations.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\filters.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\hog.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\imgproc.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\match_template.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\mathfunc.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\matrix_operations.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\matrix_reductions.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\split_merge.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\stereobm.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\stereobp.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\stereocsbp.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\surf.cu">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\internal_shared.hpp">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\cuda\safe_call.hpp">
+      <Filter>Src\Cuda</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\opencv2\gpu\device\border_interpolate.hpp">
+      <Filter>Device</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\opencv2\gpu\device\datamov_utils.hpp">
+      <Filter>Device</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\opencv2\gpu\device\dynamic_smem.hpp">
+      <Filter>Device</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\opencv2\gpu\device\limits_gpu.hpp">
+      <Filter>Device</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\opencv2\gpu\device\saturate_cast.hpp">
+      <Filter>Device</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\opencv2\gpu\device\transform.hpp">
+      <Filter>Device</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\gpu\src\opencv2\gpu\device\vecmath.hpp">
+      <Filter>Device</Filter>
+    </None>
+  </ItemGroup>
+</Project>

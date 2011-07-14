@@ -1,0 +1,38 @@
+# CMake generation dependency list for this directory.
+C:/git/opencv/opencv/CMakeLists.txt
+C:/git/opencv/build64/CMakeFiles/CMakeSystem.cmake
+C:/git/opencv/build64/CMakeFiles/CMakeCCompiler.cmake
+C:/git/opencv/build64/CMakeFiles/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/git/opencv/build64/CMakeFiles/CMakeCPlatform.cmake
+C:/git/opencv/build64/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/git/opencv/build64/CMakeFiles/CMakeRCCompiler.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/git/opencv/opencv/OpenCVPCHSupport.cmake
+C:/git/opencv/opencv/OpenCVModule.cmake
+C:/git/opencv/opencv/OpenCVFindOpenEXR.cmake
+C:/git/opencv/opencv/OpenCVFindLATEX.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/FindPythonInterp.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/FindPythonLibs.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/CMakeFindFrameworks.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/cmake/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/git/opencv/opencv/cvconfig.h.cmake
+C:/git/opencv/opencv/OpenCVConfig.cmake.in
+C:/git/opencv/opencv/OpenCVConfig-version.cmake.in
+C:/git/opencv/opencv/OpenCVConfig.cmake.in
+C:/git/opencv/opencv/OpenCVConfig-version.cmake.in
+C:/git/opencv/opencv/OpenCVConfig.cmake.in
+C:/git/opencv/opencv/opencv.pc.cmake.in
+C:/git/opencv/opencv/cmake_uninstall.cmake.in

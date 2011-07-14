@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_images.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_ffmpeg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\loadsave.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\precomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\window.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\window_w32.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_vfw.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_cmu.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\cap_dshow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\bitstrm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_base.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_bmp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_exr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_imageio.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg2000.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_png.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_pxm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_sunras.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\grfmt_tiff.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\opencv\modules\highgui\include\opencv2\highgui\highgui_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\opencv\modules\highgui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{1931B85A-1385-487A-8869-D43C91C52FC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{8DFACFE0-8829-4771-AFFC-DD4895BA5A97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\grfmts">
+      <UniqueIdentifier>{C595A9E8-0979-4768-A0AF-9165E5751AAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\opencv\modules\highgui\src\cap.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\cap_images.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\cap_ffmpeg.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\loadsave.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\precomp.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\utils.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\window.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\window_w32.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\cap_vfw.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\cap_cmu.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\cap_dshow.cpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\bitstrm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_base.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_bmp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_exr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_imageio.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg2000.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_png.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_pxm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_sunras.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_tiff.cpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\utils.hpp">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\bitstrm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmts.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_base.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_bmp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_exr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_imageio.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_jpeg2000.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_png.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_pxm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_sunras.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\src\grfmt_tiff.hpp">
+      <Filter>Src\grfmts</Filter>
+    </None>
+    <None Include="..\..\..\opencv\modules\highgui\include\opencv2\highgui\highgui.hpp">
+      <Filter>Include</Filter>
+    </None>
+  </ItemGroup>
+</Project>
