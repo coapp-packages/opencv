@@ -12,7 +12,37 @@ x64  {
     compiler: vc10-x64 ;
  
     targets: { 
-				
+				 // DLLs
+				 "build64\bin\Release\opencv_calib3d231.dll",
+				 "build64\bin\Release\opencv_contrib231.dll",
+				 "build64\bin\Release\opencv_core231.dll",
+				 "build64\bin\Release\opencv_features2d231.dll",
+				 "build64\bin\Release\opencv_ffmpeg_64.dll",
+				 "build64\bin\Release\opencv_flann231.dll",
+				 "build64\bin\Release\opencv_gpu231.dll",
+				 "build64\bin\Release\opencv_highgui231.dll",
+				 "build64\bin\Release\opencv_imgproc231.dll",
+				 "build64\bin\Release\opencv_legacy231.dll",
+				 "build64\bin\Release\opencv_ml231.dll",
+				 "build64\bin\Release\opencv_objdetect231.dll",
+				 "build64\bin\Release\opencv_ts231.dll",
+				 "build64\bin\Release\opencv_video231.dll",
+				 
+				 // Libraries
+				 "build64\lib\Release\opencv_calib3d231.lib",
+				 "build64\lib\Release\opencv_contrib231.lib",
+				 "build64\lib\Release\opencv_core231.lib",
+				 "build64\lib\Release\opencv_features2d231.lib",
+				 "build64\lib\Release\opencv_ffmpeg_64.lib",
+				 "build64\lib\Release\opencv_flann231.lib",
+				 "build64\lib\Release\opencv_gpu231.lib",
+				 "build64\lib\Release\opencv_highgui231.lib",
+				 "build64\lib\Release\opencv_imgproc231.lib",
+				 "build64\lib\Release\opencv_legacy231.lib",
+				 "build64\lib\Release\opencv_ml231.lib",
+				 "build64\lib\Release\opencv_objdetect231.lib",
+				 "build64\lib\Release\opencv_ts231.lib",
+				 "build64\lib\Release\opencv_video231.lib",
 			} ;
  
     build-command: @"
